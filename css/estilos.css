@@ -9,8 +9,8 @@ h1{
     font-size: 40px;
 }
 
-p{
-    font-size: auto;
+p, li{
+    font-size: 30px;
 }
 
 a{
