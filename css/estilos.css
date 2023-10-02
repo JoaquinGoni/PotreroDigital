@@ -1,12 +1,54 @@
 body{
-    /* background-color: #119780; */
     background:  radial-gradient(circle, #0d47a1, #42a4f55b);
 }
 
-h1{
+.titulo{
     color: #351515;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
+    display: flex;
+    order: 2;
+    flex-grow: 0;
+    width: auto;
+    height: auto;
+}
+
+.contenedorflex{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: black solid;
+}
+
+.logo{
+    display: flex;
+    order: 1;
+    width: auto;
+    height: auto;
+    flex-grow: 0;
+    border: 3px solid black;
+}
+
+.redes{
+    /* background-color: black; */
+    display: flex;
+    /* margin: 20px;
+    padding: 15px; */
+    order: 3;
+    flex-grow: 0;
+}
+
+.otrasrecetas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.otrasrecetas a{
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #560bad;
 }
 
 p, li{
@@ -14,35 +56,30 @@ p, li{
 }
 
 .subtitulos{
-    /* color: #119780; */
-    color: cornflowerblue;
+    color: #351515;
     text-align: left;
     font-size: 30px;
-    border: 10px solid #351515;
+    /* border: 10px solid #351515; */
 }
 
 .subtitulos3{
-    /* color: #660808; */
-    color: blueviolet;
+    color: #351515;
     text-align: left;
     font-size: 20px;
-    border: 10px solid#351515;
+    /* border: 10px solid#351515; */
 }
 
-.subtitulos, .subtitulos3{
-    background-color: white;
-    border-radius: 10px 0 10px 0;
-}
+/* .subtitulos, .subtitulos3{
+    /* background-color: white;
+    border-radius: 10px 0 10px 0; */
+/* }  */
 
 h1, h2, h3 {
     text-decoration:underline;
 }
 
 
-.imgs {
-    width: 150px;
-    height: 150px;
-}
+   
 .imgs2 {
     width: 300px;
     height: 300px;
@@ -63,14 +100,58 @@ footer{
     text-align: center;
 }
 
-.foot{
-    width: 50px;
-    height: 50px;
-}
-
 .wa{
     position: fixed;
     z-index: 999;
     bottom: 0;
     right: 5px;
 }
+
+.contenedorflex2{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: black solid;
+}
+
+.mapa{
+    display: flex;
+    order: 1;
+    width: auto;
+    height: auto;
+    flex-grow: 0;
+    border: 3px solid black
+}
+
+.info{
+    color: #351515;
+    text-align: left;
+    font-size: 40px;
+    display: flex;
+    order: 3;
+    flex-grow: 0;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+    flex-flow: wrap column;
+    border: 3px black solid;
+    background-image: url(../Imagenes/Dulce.webp);
+    text-decoration: underline;
+}
+
+.redes2{
+    /* background-color: black; */
+    display: flex;
+    /* margin: 20px;
+    padding: 15px; */
+    order: 2;
+    flex-grow: 0;
+}
+
+.contenedorflex1{
+    display: flex;
+}
+
