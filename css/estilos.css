@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Young+Serif&display=swap');
+
+
 body{
     background:  radial-gradient(circle, #0d47a1, #42a4f55b);
 }
@@ -9,8 +12,7 @@ body{
     display: flex;
     order: 2;
     flex-grow: 0;
-    width: auto;
-    height: auto;
+    font-family: 'Young Serif', serif; 
 }
 
 .contenedorflex{
@@ -20,73 +22,67 @@ body{
     justify-content: space-between;
     align-items: center;
     border: black solid;
+    width: 100%;
 }
 
 .logo{
     display: flex;
     order: 1;
-    width: auto;
-    height: auto;
     flex-grow: 0;
     border: 3px solid black;
+    width: 20%;
 }
 
 .redes{
-    /* background-color: black; */
     display: flex;
-    /* margin: 20px;
-    padding: 15px; */
     order: 3;
     flex-grow: 0;
 }
 
+/* .redes a:hover {
+} */
+
 .otrasrecetas{
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .otrasrecetas a{
-    border: black 1px solid;
+    border: black 3px solid;
     border-radius: 10px;
     background-color: #560bad;
+    
 }
 
 p, li{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .subtitulos{
     color: #351515;
     text-align: left;
     font-size: 30px;
-    /* border: 10px solid #351515; */
+    font-family: 'Young Serif', serif;
 }
 
 .subtitulos3{
     color: #351515;
     text-align: left;
     font-size: 20px;
-    /* border: 10px solid#351515; */
+    font-family: 'Young Serif', serif;
 }
-
-/* .subtitulos, .subtitulos3{
-    /* background-color: white;
-    border-radius: 10px 0 10px 0; */
-/* }  */
 
 h1, h2, h3 {
     text-decoration:underline;
 }
 
-
-   
 .imgs2 {
-    width: 300px;
-    height: 300px;
+    width: 50%;
 }
 
 a:link{
-    color: darkblue;
+    color: beige;
     text-decoration:none;
     font-size: 30px;
 }
@@ -114,6 +110,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     border: black solid;
+    width: 100%;
 }
 
 .mapa{
@@ -122,7 +119,8 @@ footer{
     width: auto;
     height: auto;
     flex-grow: 0;
-    border: 3px solid black
+    border: 3px solid black;
+    width: 25%;
 }
 
 .info{
@@ -132,26 +130,57 @@ footer{
     display: flex;
     order: 3;
     flex-grow: 0;
-    width: auto;
-    height: auto;
     padding: 15px;
     margin: 15px;
     flex-flow: wrap column;
     border: 3px black solid;
     background-image: url(../Imagenes/Dulce.webp);
     text-decoration: underline;
+    width: 15%;
 }
 
 .redes2{
-    /* background-color: black; */
     display: flex;
-    /* margin: 20px;
-    padding: 15px; */
     order: 2;
     flex-grow: 0;
 }
 
 .contenedorflex1{
     display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
+.contenedorflex1 ul, ol, form, input{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.contenedorflex1 h2{
+    font-family: 'Young Serif', serif;
+}
+
+p{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navegador{
+    background-color: #8623A3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    font-family: 'Bebas Neue', sans-serif;
+    border: black solid;
+    width: 100%;
+}
+
+a:hover{
+    background-color: #351515;
+}
+
+.sec{
+    width: 50%;
+}
+
+.as{
+    width: 30%;
+}
