@@ -134,7 +134,7 @@ footer{
     margin: 15px;
     flex-flow: wrap column;
     border: 3px black solid;
-    background-image: url(../Imagenes/Dulce.webp);
+    background-image: url(../imagenes/dulce.webp);
     text-decoration: underline;
     width: 15%;
 }
@@ -183,4 +183,43 @@ a:hover{
 
 .as{
     width: 30%;
+}
+
+.blanco{
+    display: none;
+}
+
+/* celu */
+@media (max-width: 575px), (orientation:portrait){
+    .blanco{
+        display: block;
+}
+    body{
+    background-color: green;
+}
+    a:link{
+    color: #61C842 ;
+    text-decoration:underline;
+    font-size: 50px;
+    }
+}
+
+
+/* Tablet */
+@media (min-width:576px) and (max-width: 991px){
+    a:link{
+        color: gold;
+        text-decoration:underline;
+        font-size: 50px;
+}
+body{
+    background-color: red;
+}
+}
+
+/* Desktop */
+@media (min-width: 992px){
+    .tatin{
+        display: none;
+    }
 }
