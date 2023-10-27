@@ -8,11 +8,14 @@ body{
 .titulo{
     color: #351515;
     text-align: center;
-    font-size: 30px;
     display: flex;
     order: 2;
     flex-grow: 0;
     font-family: 'Young Serif', serif; 
+}
+
+.titulo h1{
+    font-size: 60px;
 }
 
 .contenedorflex{
@@ -22,7 +25,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border: black solid;
-    width: 100%;
+    width: 1518px;
 }
 
 .logo{
@@ -37,6 +40,11 @@ body{
     display: flex;
     order: 3;
     flex-grow: 0;
+    justify-content: space-between;
+}
+
+.redes img{
+   padding: 10px;
 }
 
 /* .redes a:hover {
@@ -110,39 +118,39 @@ footer{
     justify-content: space-between;
     align-items: center;
     border: black solid;
-    width: 100%;
+    width: 1518px;
 }
 
 .mapa{
     display: flex;
     order: 1;
-    width: auto;
-    height: auto;
     flex-grow: 0;
     border: 3px solid black;
     width: 25%;
+    margin:0 0 0 40px;
 }
 
 .info{
-    color: #351515;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     order: 3;
     flex-grow: 0;
-    padding: 15px;
-    margin: 15px;
+    padding: 5%;
     flex-flow: wrap column;
-    border: 3px black solid;
-    background-image: url(../imagenes/dulce.webp);
-    text-decoration: underline;
-    width: 15%;
+    text-decoration: none;
+    width: 25%;
 }
 
 .redes2{
     display: flex;
     order: 2;
     flex-grow: 0;
+    justify-content: space-evenly;
+}
+
+.redes2 img{
+    padding: 10px;
 }
 
 .contenedorflex1{
@@ -187,6 +195,59 @@ a:hover{
 
 .blanco{
     display: none;
+}
+
+.botonoscuro{
+    display: block;
+    border-radius: 20px;
+    width: 5%;
+    position: fixed;
+    z-index: 999;
+    bottom: 60px;
+    right: 5px;
+}
+
+.ojo{
+    border-radius: 20px;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.colorboton{
+    background-color: gold;
+    border: black 3px solid;
+    border-radius: 10px;
+    font-family: 'Young Serif', serif;
+    color: white;
+    width: 10rem;
+}
+
+.modonocturno{
+    background-color: black;
+    color: white;
+    background-image: none;
+}
+.modonocturno h1{
+    color: white;
+}
+
+.modonocturno h2{
+    color: white;
+}
+
+.modonocturno h3{
+    color: white;
+}
+
+.modonocturno .contenedorflex{
+    background-color: black;
+}
+
+.modonocturno .contenedorflex2{
+    background-color: black;
 }
 
 /* celu */
